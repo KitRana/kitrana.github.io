@@ -95,8 +95,17 @@
                         <h3>Hello,</h6>
                         <h1>I'm Kit</h1>
                         <h3>
-                          <span id="rotating-word">Analytics</span> Engineer
-                        </h3>                        
+                          <span id="typed-word">Analytics</span> Engineer
+                        </h3>
+                        <script>
+                          new Typed("#typed-word", {
+                            strings: ["Analytics", "Data", "Software", "ML"],
+                            typeSpeed: 80,
+                            backSpeed: 50,
+                            backDelay: 1500,
+                            loop: true
+                          });
+                        </script>
                         <div class="cv-btn">
                             <a href="#about"><span>Start</span></a>
                         </div>
@@ -809,6 +818,7 @@
 
     <!-- Optional JavaScript -->
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
