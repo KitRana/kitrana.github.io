@@ -248,3 +248,14 @@ const sendButton = contactForm.querySelector(".sendButton");
 sendButton.addEventListener("click", function(){
     window.alert("Oops! Sorry, the contact form back-end is still being built.\nPlease reach out to me through my social media links.\nThank you so much!");
 })
+
+// Rotating Title
+const words = ["Analytics", "Data", "Software", "ML"];
+const el = document.getElementById("rotating-word");
+
+let index = 0;
+
+setInterval(() => {
+index = (index + 1) % words.length;
+el.textContent = words[index];
+}, 2000); // change every 2 seconds
