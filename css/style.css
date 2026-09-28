@@ -179,7 +179,7 @@ header .navbar ul li a.active::before {
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
-    height: 20em;
+    height: 44em;
     margin-top: 0em;
     
 }
@@ -187,9 +187,10 @@ header .navbar ul li a.active::before {
 #home .home-content .img img {
     transform: scale(.3);
     /* border: 0.5em solid #ffffff05; */
-    border-radius: 50%;
+    border-radius: 28%;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.438);
     background-color: #ffffff;
+
 }
 
 #home .home-content .block {
@@ -198,7 +199,8 @@ header .navbar ul li a.active::before {
     max-width: 25%;
     border-left: .5em solid #ffffff;
     padding-left: .5em;
-    /* margin-top: 25em; */
+    margin-top: 10em;
+    margin-bottom:10em;
     margin-left: 5em;
 }
 
