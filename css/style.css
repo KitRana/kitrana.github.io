@@ -189,6 +189,7 @@ header .navbar ul li a.active::before {
     /* border: 0.5em solid #ffffff05; */
     border-radius: 50%;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.438);
+    background-color: #ffffff;
 }
 
 #home .home-content .block {
