@@ -185,7 +185,7 @@ header .navbar ul li a.active::before {
 }
 
 #home .home-content .img img {
-    transform: scale(.3);
+    transform: scale(.2);
     /* border: 0.5em solid #ffffff05; */
     border-radius: 28%;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.438);
