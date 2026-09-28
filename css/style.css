@@ -343,7 +343,7 @@ header .navbar ul li a.active::before {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 50%;
+    border-radius: 20%;
     box-shadow: 0px 28px 30px #00000052;
     /* -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg); */
